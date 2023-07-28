@@ -1,0 +1,152 @@
+*	{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 24px;
+	
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    /*padding-top: 2cm;*/
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #676767;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #6699CC;
+  color: black;
+}
+
+/*.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border: none;
+  float: right;
+}
+
+.topnav button[type=submit] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}*/
+
+/*.topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }*/
+.form {
+    display: block;
+    color: black;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5cm;
+}
+#logo {
+    height: 200px;
+    width: 150px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+    height: 20%;
+    width: 20%;
+    border: 2in;
+    padding-inline: 10px;
+    /*background-color: #676767;*/
+}
+
+.secondNav a:hover{
+  background-color: #003b6d; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #676767;
+    }
+
+footer:link{
+      color: #bdbdbd;
+    }
+
+:link{
+  color:#bdbdbd;
+
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 10px 10px;
+  /*margin: 4px 0;*/
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #003b6d;
+  color: white;
+  padding: 15px 20px;
+  margin: 4px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #676767;
+}
